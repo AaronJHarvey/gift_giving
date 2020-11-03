@@ -9,3 +9,9 @@ give_those_gifts => where git repo is initialized
         gift.js
         class3.js
         class4.js
+
+
+AJAX Requests:
+1. get /people
+2. post /gifts
+3. update /people
