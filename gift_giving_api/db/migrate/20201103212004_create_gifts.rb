@@ -5,7 +5,7 @@ class CreateGifts < ActiveRecord::Migration[6.0]
       t.string :store
       t.integer :person_id
 
-      t.timestamps
+      
     end
   end
 end

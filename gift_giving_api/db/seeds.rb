@@ -1,8 +1,9 @@
 Person.destroy_all
 Gift.destroy_all
 
-Person.create(name:"Mom")
-Person.create(name:"Alex")
+mom = Person.create(name:"Mom")
+alex = Person.create(name:"Alex")
 Person.create(name:"Melissa")
 
-gift1 = Gift.create(name:"The Fault In Our Stars DVD", store:"Walmart", person:)
+Gift.create(name:"The Fault In Our Stars DVD", store:"Walmart", person: mom)
+Gift.create(name:"A Book", store:"Amazon", person: alex)
